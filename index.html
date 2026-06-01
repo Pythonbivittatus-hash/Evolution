@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Evolution — Playtest Interest List | Glass Mantle Studios</title>
+  <meta name="description" content="Join the Evolution playtest interest list. A card-based strategy game of adaptation, pressure, mutation and survival by Glass Mantle Studios." />
+  <meta name="theme-color" content="#070604" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <header class="nav">
+      <a class="brand" href="#top" aria-label="Glass Mantle Studios Evolution home">
+        <span class="brand-mark">E</span>
+        <span><strong>Glass Mantle Studios</strong><small>Evolution</small></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#game">Game</a>
+        <a href="#deck">Deck</a>
+        <a href="#interest">Join</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Mutata Manent · The changed endure</p>
+          <h1>Evolution</h1>
+          <p class="lead">A card-based strategy game of adaptation, pressure, mutation and survival.</p>
+          <p class="quiet">Digital version first. Physical deck-building version planned. The early playtest interest list is open now; the playtest itself will arrive at a later stage of development.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#interest">Join the interest list</a>
+            <a class="button ghost" href="#game">Learn the premise</a>
+          </div>
+        </div>
+        <div class="crest-card reveal delay-1" aria-label="Evolution shield emblem concept">
+          <div class="fossil-orbit fossil-a"></div>
+          <div class="fossil-orbit fossil-b"></div>
+          <div class="shield">
+            <div class="snake snake-top"></div>
+            <div class="shield-inner">
+              <span class="monogram">E</span>
+              <span class="dna-rune" aria-hidden="true"></span>
+            </div>
+            <div class="snake snake-mid"></div>
+            <div class="snake snake-tail"></div>
+          </div>
+          <p class="crest-caption">Only what adapts endures.</p>
+        </div>
+      </section>
+
+      <section id="game" class="panel-section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">The premise</p>
+          <h2>Survive the pressures that shaped life.</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span>01</span>
+            <h3>Adaptation under pressure</h3>
+            <p>Build a species through changing environmental pressures. Each choice alters survival, weakness and future possibility.</p>
+          </article>
+          <article class="feature-card">
+            <span>02</span>
+            <h3>Card-driven strategy</h3>
+            <p>Traits, environments and synergies form a compact strategic loop: choose, adapt, survive, evolve.</p>
+          </article>
+          <article class="feature-card">
+            <span>03</span>
+            <h3>Digital first. Physical next.</h3>
+            <p>The first version is being developed as an online/digital strategy game, with a physical deck-building version planned alongside it.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="deck" class="split-section reveal">
+        <div>
+          <p class="eyebrow">The deck</p>
+          <h2>Mutation is not decoration. It is the game.</h2>
+          <p>Evolution is being designed around the drama of biological pressure: scarcity, defence, mobility, awareness, energy and resistance. The aim is a game that feels tactical, readable and atmospheric without revealing too much too early.</p>
+        </div>
+        <div class="mini-deck" aria-hidden="true">
+          <div class="card c1"><strong>Lorica</strong><span>Defence</span></div>
+          <div class="card c2"><strong>Crypsis</strong><span>Concealment</span></div>
+          <div class="card c3"><strong>Symbio</strong><span>Alliance</span></div>
+        </div>
+      </section>
+
+      <section id="interest" class="interest-section reveal">
+        <div class="form-intro">
+          <p class="eyebrow">Enter the early access pool</p>
+          <h2>Join the Evolution playtest interest list.</h2>
+          <p>The list is open now so early followers, playtesters, card-deck supporters and potential contributors can register interest as the project evolves.</p>
+        </div>
+
+        <form id="interestForm" class="form-card">
+          <div class="field two">
+            <label>Name <input name="name" type="text" autocomplete="name" placeholder="Your name" /></label>
+            <label>Email address <input name="email" type="email" autocomplete="email" placeholder="you@example.com" required /></label>
+          </div>
+
+          <fieldset>
+            <legend>What would you like to be involved with?</legend>
+            <div class="checkbox-grid">
+              <label><input type="checkbox" name="interests" value="Digital playtest / early access"> Digital playtest / early access</label>
+              <label><input type="checkbox" name="interests" value="Online game updates"> Online game updates</label>
+              <label><input type="checkbox" name="interests" value="Physical card deck / prototypes"> Physical card deck / prototypes</label>
+              <label><input type="checkbox" name="interests" value="Game design or balancing"> Game design or balancing</label>
+              <label><input type="checkbox" name="interests" value="Art, animation, UI or branding"> Art, animation, UI or branding</label>
+              <label><input type="checkbox" name="interests" value="Coding / development"> Coding / development</label>
+              <label><input type="checkbox" name="interests" value="Writing, lore, science or worldbuilding"> Writing, lore, science or worldbuilding</label>
+              <label><input type="checkbox" name="interests" value="Just following for now"> Just following for now</label>
+            </div>
+            <p id="interestError" class="error" hidden>Please select at least one option.</p>
+          </fieldset>
+
+          <label>Which version interests you most?
+            <select name="versionInterest">
+              <option value="Both digital and physical">Both digital and physical</option>
+              <option value="Online / digital strategy game">Online / digital strategy game</option>
+              <option value="Physical card deck">Physical card deck</option>
+              <option value="Not sure yet">Not sure yet</option>
+            </select>
+          </label>
+
+          <label>Skills, experience or ideas that could help the project evolve
+            <textarea name="skills" rows="4" placeholder="Game design, Unity, coding, art, animation, biology, ecology, writing, playtesting, community building..."></textarea>
+          </label>
+
+          <label>Anything else you’d like to say?
+            <textarea name="message" rows="4" placeholder="What drew you to the project? What kind of games do you like? What would you like to see from Evolution?"></textarea>
+          </label>
+
+          <label class="consent"><input name="consent" type="checkbox" required> I’m happy to be contacted by Glass Mantle Studios about Evolution updates, playtests, physical card prototypes and related project opportunities.</label>
+
+          <button class="button primary submit" type="submit">Join the list</button>
+          <p id="formStatus" class="status" role="status"></p>
+          <p class="privacy-note">Your details will only be used for Evolution / Glass Mantle Studios project updates and opportunities. No spam.</p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Ryan Cummins / Glass Mantle Studios. All rights reserved.</p>
+      <p>Mutata Manent.</p>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
